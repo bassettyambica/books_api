@@ -1,0 +1,125 @@
+body {
+    font-family: Courier, 'sans-serif';
+    background-color: #fff;
+    color: #444;
+  }
+  
+  h1, p {
+    margin: 0 0 1em 0;
+  }
+
+  .siteHeading {
+    margin: 0 auto;
+    color: #7c795d;
+    font-size: 45px; 
+    font-weight: bold; 
+    line-height: 48px;
+    font-family: 'Trocchi', serif;
+  }
+  
+
+  .mainContainer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  95%;
+    grid-gap: 16px;
+  }
+
+  .mainContainer > * {
+    background-color: #fafafa;
+    color: #242424;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .article-title{
+    color: #7c795d;
+    font-family: 'Trocchi', serif; 
+    font-size: 45px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin-top: 40%;
+  }
+
+  .articleContent {
+    padding-right: 40px;
+    padding-left: 40px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 8px;
+  }
+
+  .panel-body{
+    border : 1px solid #7c795d;
+    cursor: pointer;
+  }
+
+  .panel{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .panel>img {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+  }
+
+  .panel-span {
+    font-size: 12px;
+  }
+  
+  .show-model{
+    display : block;
+  }
+
+  .hide-model {
+    display : none;
+  }
+
+  .openModal {
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; 
+      overflow: auto; 
+      background-color: #fff;
+  }
+
+  .mainOpacity{
+    display : block;
+  }
+
+  .modalContent{
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; 
+  }
+
+  .modelImage {
+    margin : 5px 0 0 20%;
+    border-radius: 25px;
+  }
+
+  .productInfo{
+    display : block;
+  }
+
+  button {
+    background-color: #26a69a; 
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius : 4px;
+  }
